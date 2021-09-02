@@ -242,22 +242,94 @@
 /**************************************************************************/
 /* Duyarli Ekran Ayarlari */
 @media (max-width: 767px) {
-    .container{
+    .container {
         width: 96% !important;
         margin: 0 2% !important;
+    }
+    .navbar-toggler {
+        color: #fff !important;
+    }
+    .navbar-toggler-icon {
+        position: relative;
+        background-image: none !important;
+    }
+    .navbar-toggler-icon:after {
+        position: absolute;
+        content:"\f0c9";
+        font-family: fontawesome;
+        font-size: 35px;
+        left: 0%;
+        bottom: 0px !important;
     }
     .dropdown-toggle::after {
         top:25% !important;
         left: 15%;
     }
-    .featured-bottom .region{
+    .dropdown-toggle:hover.dropdown-toggle:after {
+        top:10% !important;
+    }
+    .featured-bottom .region {
         margin: 2% 0 5%;;
+    }
+    #manset {
+        display: block;
+        width: 100%;
+    }
+    #manset-gorsel {
+        width: 100%;
+        margin: 0;
+    }
+    #manset-yazi {
+        width: 100%;
+        position: relative;
+    }
+    #manset-terim{
+        margin: 0 auto !important;
+    }
+    #manset-baslik a{
+        font-size: 2em
     }
     .grid-2{
         width: 80% !important;
         margin: 0 10% 3%;
     }
+    .grid-3{
+        float: none;
+        width: 100%;
+        margin-bottom: 1% !important;
+    }
+    .block-views-blockhaber-duyuru-gorunumleri-block-1 .views-row, .block-views-blockhaber-duyuru-gorunumleri-block-2 .views-row{
+        width: 80%;
+        float: none;
+        margin:0 auto 1%;
+    }
+    .block-views-blockhaber-duyuru-gorunumleri-block-1, .block-views-blockhaber-duyuru-gorunumleri-block-2{
+        margin:0 0 10%;
+    }
+    .more-link{
+        text-align: center;
+    }
     .grid-4{
         width: 48% !important;
+    }
+    .grid-satir{
+        display: block;
+        margin-block: 2%;
+    }
+    .grid-satir-gorsel{
+        width: 90%;
+        margin: 0 auto;
+        border-right: none;
+    }
+    .grid-satir-yazi{
+        width: 100%;
+        padding: 0 5%;
+        margin-top: 2%;
+    }
+    .grid-satir-terim{
+        font-size: 14px;
+    }
+    .grid-satir-baslik{
+        margin-top: 0 !important;
     }
 }

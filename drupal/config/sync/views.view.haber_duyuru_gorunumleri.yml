@@ -1223,6 +1223,7 @@ display:
         type: normal
         title: Haberler
         menu_name: main
+        weight: -47
       display_description: ''
       fields:
         field_one_cikan_gorsel:
@@ -1693,7 +1694,7 @@ display:
         description: ''
         expanded: false
         parent: ''
-        weight: 0
+        weight: -48
         context: '0'
         menu_name: main
       filters:
