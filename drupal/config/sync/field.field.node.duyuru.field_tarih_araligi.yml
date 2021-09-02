@@ -1,0 +1,21 @@
+uuid: e644c931-92d6-4761-bd24-f1c40dbd0f03
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tarih_araligi
+    - node.type.duyuru
+  module:
+    - datetime_range
+id: node.duyuru.field_tarih_araligi
+field_name: field_tarih_araligi
+entity_type: node
+bundle: duyuru
+label: 'Tarih Aralığı'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

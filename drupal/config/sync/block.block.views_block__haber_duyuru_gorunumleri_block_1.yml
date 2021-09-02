@@ -1,0 +1,30 @@
+uuid: 535a920c-12e0-4593-ad60-43552733636a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.haber_duyuru_gorunumleri
+  module:
+    - system
+    - views
+  theme:
+    - eti_barrio
+id: views_block__haber_duyuru_gorunumleri_block_1
+theme: eti_barrio
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:haber_duyuru_gorunumleri-block_1'
+settings:
+  id: 'views_block:haber_duyuru_gorunumleri-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

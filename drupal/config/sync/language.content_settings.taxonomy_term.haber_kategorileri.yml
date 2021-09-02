@@ -1,0 +1,11 @@
+uuid: d5de4213-03c0-4f49-a516-e53125e19dc2
+langcode: tr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.haber_kategorileri
+id: taxonomy_term.haber_kategorileri
+target_entity_type_id: taxonomy_term
+target_bundle: haber_kategorileri
+default_langcode: site_default
+language_alterable: false

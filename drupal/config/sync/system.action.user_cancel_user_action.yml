@@ -1,0 +1,13 @@
+uuid: 2ce337ea-7e46-4b2d-8c61-179711f7714a
+langcode: tr
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: nvrL9bFilzBvm2bjO9rQnFDpBA7dBBUjShSSt6NS-DU
+id: user_cancel_user_action
+label: 'Seçilmiş kullanıcı hesaplarını iptal et'
+type: user
+plugin: user_cancel_user_action
+configuration: {  }

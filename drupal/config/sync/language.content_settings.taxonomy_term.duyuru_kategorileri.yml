@@ -1,0 +1,11 @@
+uuid: e471f9d1-6c91-45a5-a20e-bec54f62add1
+langcode: tr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.duyuru_kategorileri
+id: taxonomy_term.duyuru_kategorileri
+target_entity_type_id: taxonomy_term
+target_bundle: duyuru_kategorileri
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,13 @@
+uuid: 117b1ebc-6f5d-4ae1-8fd3-36e6fd3c2b7d
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
+name: 'Temel sayfa'
+type: page
+description: '<em>Temel sayfa</em>ları, ''Hakkımızda'' sayfası gibi sabit içerikler için kullanın.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

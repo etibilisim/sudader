@@ -1,0 +1,8 @@
+uuid: 1b61b131-5269-44e0-bf54-0b135d0dbaa9
+langcode: tr
+status: true
+dependencies: {  }
+name: 'Duyuru Kategorileri'
+vid: duyuru_kategorileri
+description: ''
+weight: 0

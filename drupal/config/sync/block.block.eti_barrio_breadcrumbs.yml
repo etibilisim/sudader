@@ -1,0 +1,22 @@
+uuid: 9d63f103-dd16-4120-9b23-f5916310a580
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eti_barrio
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: eti_barrio_breadcrumbs
+theme: eti_barrio
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

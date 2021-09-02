@@ -1,0 +1,13 @@
+uuid: e31e1045-1aec-416f-b7d5-8fbc29b1d034
+langcode: tr
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: vpBH8OmL4sdesCdeZLsW8KOutB5gkbreWJbfjhfFKaQ
+id: comment_delete_action
+label: 'Yorumu sil'
+type: comment
+plugin: 'entity:delete_action:comment'
+configuration: {  }

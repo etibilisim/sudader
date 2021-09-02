@@ -1,0 +1,20 @@
+uuid: d1a0dc49-7ae3-4005-aa96-2f561673d79d
+langcode: tr
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - node
+id: node.field_tarih_araligi
+field_name: field_tarih_araligi
+entity_type: node
+type: daterange
+settings:
+  datetime_type: datetime
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

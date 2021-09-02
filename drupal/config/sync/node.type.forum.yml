@@ -1,0 +1,23 @@
+uuid: 3eac1814-52e5-4235-abc7-74d2d35b1327
+langcode: tr
+status: true
+dependencies:
+  enforced:
+    module:
+      - forum
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: ERCHDVB33lub-cz7DSYR7HuBlYJjmVUdPw0IIYa3ZXc
+name: 'Forum başlığı'
+type: forum
+description: 'Forum içeriği oluşturmak için bu içerik türünü kullanınız.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

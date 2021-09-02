@@ -1,0 +1,20 @@
+uuid: 308fc469-bc7a-45bf-8cb9-55daec3dccef
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_duyuru_kategorisi
+field_name: field_duyuru_kategorisi
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

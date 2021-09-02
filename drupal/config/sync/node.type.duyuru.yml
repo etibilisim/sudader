@@ -1,0 +1,17 @@
+uuid: 039c9d99-c97c-4081-a13d-dd15f4a33ada
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Duyuru
+type: duyuru
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

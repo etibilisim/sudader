@@ -1,0 +1,25 @@
+uuid: 378cd9a4-abe8-4511-b931-51e20d2360da
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - etibasetheme
+_core:
+  default_config_hash: tmkcubzmHsp-9oVOsbnDMnIW95Q0CkdHcIHXf6sc9-U
+id: etibasetheme_branding
+theme: etibasetheme
+region: header_first
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

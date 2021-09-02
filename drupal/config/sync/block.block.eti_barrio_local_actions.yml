@@ -1,0 +1,20 @@
+uuid: 32fc8a66-d26b-4fb8-bb62-ece56afb1708
+langcode: tr
+status: true
+dependencies:
+  theme:
+    - eti_barrio
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: eti_barrio_local_actions
+theme: eti_barrio
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

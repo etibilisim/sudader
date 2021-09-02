@@ -1,0 +1,22 @@
+uuid: f8411d59-fe82-4046-a45e-40182335c6a8
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - etibasetheme
+_core:
+  default_config_hash: XwEvQb9vkAi3CQKUuKoVhZFwrjdnDdzTGufpEJp87c0
+id: etibasetheme_messages
+theme: etibasetheme
+region: system_messages
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

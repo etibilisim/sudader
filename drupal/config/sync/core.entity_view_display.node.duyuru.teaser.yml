@@ -1,0 +1,38 @@
+uuid: e880514e-a0a2-4b3d-ab45-0fd791c6c962
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.duyuru.body
+    - field.field.node.duyuru.field_duyuru_kategorisi
+    - field.field.node.duyuru.field_one_cikan_gorsel
+    - field.field.node.duyuru.field_tarih_araligi
+    - node.type.duyuru
+  module:
+    - text
+    - user
+id: node.duyuru.teaser
+targetEntityType: node
+bundle: duyuru
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_duyuru_kategorisi: true
+  field_one_cikan_gorsel: true
+  field_tarih_araligi: true
+  langcode: true

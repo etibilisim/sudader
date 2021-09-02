@@ -1,0 +1,12 @@
+uuid: 7193215a-f9f1-4c7e-b12a-3e2d926d8eea
+langcode: tr
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: fVFfJv_GzBRE-wpRHbfD5a3VjnhbEOXG6lvRd3uaccY
+id: node.search_index
+label: 'Dizinde ara'
+targetEntityType: node
+cache: true

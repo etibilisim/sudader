@@ -1,0 +1,14 @@
+uuid: 59ae4394-990b-4d18-baee-78758eed6fb6
+name: 'Su Ürünleri Üretimi ve Endüstri Dalgıçları Derneği'
+mail: bilgi@suurunleridalder.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: tr
+default_langcode: tr
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

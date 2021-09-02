@@ -1,0 +1,22 @@
+uuid: 8397826b-3be7-47ad-90b7-978832e7b133
+langcode: tr
+status: true
+dependencies:
+  theme:
+    - etibasetheme
+_core:
+  default_config_hash: A6s5ctao7joFkIaNFRUgujhYuQk8-cothsFrHeNiYAY
+id: etibasetheme_local_tasks
+theme: etibasetheme
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

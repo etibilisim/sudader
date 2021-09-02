@@ -1,0 +1,64 @@
+uuid: bded97e9-fa29-4ad0-bc30-e4359d76500b
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_forum.default
+    - field.field.node.forum.body
+    - field.field.node.forum.comment_forum
+    - field.field.node.forum.field_foto_galeri
+    - field.field.node.forum.taxonomy_forums
+    - node.type.forum
+  module:
+    - comment
+    - image
+    - text
+    - user
+_core:
+  default_config_hash: TM_8DV1XKUAtF-wGxTBLOtg_GTtF5CX9WLrADxG7Xm4
+id: node.forum.default
+targetEntityType: node
+bundle: forum
+mode: default
+content:
+  addtoany:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  comment_forum:
+    label: hidden
+    type: comment_default
+    weight: 3
+    region: content
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+  field_foto_galeri:
+    weight: 5
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  taxonomy_forums:
+    type: entity_reference_label
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  links: true

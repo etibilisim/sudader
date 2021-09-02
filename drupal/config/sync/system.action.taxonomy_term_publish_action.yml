@@ -1,0 +1,13 @@
+uuid: dcb3fe5d-209e-4ed6-8748-dd62c982174b
+langcode: tr
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: DoVt_VGgVLcDD4XmVbSFzr0K17SJy9imFiYusKkJBgY
+id: taxonomy_term_publish_action
+label: 'Sınıflandırma terimini yayımla'
+type: taxonomy_term
+plugin: 'entity:publish_action:taxonomy_term'
+configuration: {  }

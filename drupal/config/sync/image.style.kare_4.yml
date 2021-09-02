@@ -1,0 +1,15 @@
+uuid: 2efbd3c7-47ac-4894-82cd-1de136b475b7
+langcode: tr
+status: true
+dependencies: {  }
+name: kare_4
+label: 'Kare 400x400'
+effects:
+  0ee13a31-47a6-481d-8007-0ce2c3b5e313:
+    uuid: 0ee13a31-47a6-481d-8007-0ce2c3b5e313
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 400
+      anchor: center-center

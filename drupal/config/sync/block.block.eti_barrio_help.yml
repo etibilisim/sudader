@@ -1,0 +1,22 @@
+uuid: 4b9a4080-38cc-4814-bbf5-30bba84c3c1b
+langcode: tr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - eti_barrio
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: eti_barrio_help
+theme: eti_barrio
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

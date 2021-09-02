@@ -1,0 +1,15 @@
+uuid: 384eef35-3fa5-479d-9cfb-ada72ecf60bd
+langcode: tr
+status: true
+dependencies: {  }
+name: one_cikan_gorsel
+label: 'Öne Çıkan Görsel'
+effects:
+  9fa81b4e-8ed2-43a2-8ec7-da8e14e70661:
+    uuid: 9fa81b4e-8ed2-43a2-8ec7-da8e14e70661
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 800
+      height: 510
+      anchor: center-center

@@ -1,0 +1,24 @@
+uuid: 7832ab7b-c8ab-4f2d-b8d2-05a2197d1551
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.forum
+_core:
+  default_config_hash: IgOTrEFYF-0yHR4i7F5mIQZ5nVyQje9Nwfl9bydpPrE
+id: node.forum.promote
+field_name: promote
+entity_type: node
+bundle: forum
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

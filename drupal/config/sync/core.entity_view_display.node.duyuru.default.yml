@@ -1,0 +1,62 @@
+uuid: c70fc5c2-1c75-4dcf-bac2-f9a9910c6c2f
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.duyuru.body
+    - field.field.node.duyuru.field_duyuru_kategorisi
+    - field.field.node.duyuru.field_one_cikan_gorsel
+    - field.field.node.duyuru.field_tarih_araligi
+    - node.type.duyuru
+  module:
+    - datetime_range
+    - image
+    - text
+    - user
+id: node.duyuru.default
+targetEntityType: node
+bundle: duyuru
+mode: default
+content:
+  addtoany:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_duyuru_kategorisi:
+    weight: 2
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_one_cikan_gorsel:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tarih_araligi:
+    weight: 3
+    label: above
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+hidden:
+  langcode: true
+  links: true

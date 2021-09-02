@@ -1,0 +1,15 @@
+uuid: c10dc2d7-774d-49d0-bbc5-88cbfbbb8806
+langcode: tr
+status: true
+dependencies: {  }
+name: manset_550x350
+label: 'Manşet 550x350'
+effects:
+  5a521820-9492-40d9-9ba9-5d9436154e83:
+    uuid: 5a521820-9492-40d9-9ba9-5d9436154e83
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 550
+      height: 350
+      anchor: center-center

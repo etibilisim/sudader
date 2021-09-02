@@ -1,0 +1,27 @@
+uuid: 3618d1cb-f263-4c8d-9ed5-43ec17d1fec4
+langcode: tr
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - etibasetheme
+_core:
+  default_config_hash: 3gZhS486N5hu81ZoiSXonYbTYyhnavUPQxtr0ScEDz0
+id: etibasetheme_main_menu
+theme: etibasetheme
+region: header
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

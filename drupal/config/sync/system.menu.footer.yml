@@ -1,0 +1,10 @@
+uuid: 26f840c7-731e-42c9-91ed-c5fd68f06479
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
+id: footer
+label: Dipnot
+description: 'Site bilgileri bağlantıları'
+locked: true

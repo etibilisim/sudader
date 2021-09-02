@@ -1,0 +1,24 @@
+uuid: 9454829a-8275-4fd7-8773-691b3f07d7a2
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fotograf.field_fotograf_sinirsiz
+    - node.type.fotograf
+  module:
+    - user
+id: node.fotograf.teaser
+targetEntityType: node
+bundle: fotograf
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_fotograf_sinirsiz: true
+  langcode: true

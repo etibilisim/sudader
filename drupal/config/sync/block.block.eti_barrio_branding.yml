@@ -1,0 +1,25 @@
+uuid: d268bc72-aa52-4b74-bcb0-fba1543a933c
+langcode: tr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eti_barrio
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: eti_barrio_branding
+theme: eti_barrio
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site markası'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

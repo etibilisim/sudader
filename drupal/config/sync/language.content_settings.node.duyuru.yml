@@ -1,0 +1,11 @@
+uuid: c499bce3-ad44-4ad0-ad68-9d23b14fe3a5
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.duyuru
+id: node.duyuru
+target_entity_type_id: node
+target_bundle: duyuru
+default_langcode: site_default
+language_alterable: false

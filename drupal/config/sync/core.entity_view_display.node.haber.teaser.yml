@@ -1,0 +1,42 @@
+uuid: 1db30714-ea99-44e6-82ad-b7dd6bc5f57a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.haber.body
+    - field.field.node.haber.field_haber_foto_galeri
+    - field.field.node.haber.field_haber_kategorisi
+    - field.field.node.haber.field_one_cikan_gorsel
+    - field.field.node.haber.field_spot
+    - field.field.node.haber.field_video_url
+    - node.type.haber
+  module:
+    - text
+    - user
+id: node.haber.teaser
+targetEntityType: node
+bundle: haber
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_haber_foto_galeri: true
+  field_haber_kategorisi: true
+  field_one_cikan_gorsel: true
+  field_spot: true
+  field_video_url: true
+  langcode: true

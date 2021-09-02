@@ -1,0 +1,13 @@
+uuid: 68c00728-7950-4cba-a414-7d4424baa095
+langcode: tr
+status: true
+dependencies:
+  enforced:
+    module:
+      - forum
+_core:
+  default_config_hash: ESGfHGDVWjnc2BiSFq58LOhBU6-f_2AGcwGjbqegYfo
+name: 'Forum Kategorisi'
+vid: forums
+description: 'Forum haritası sözlüğü'
+weight: -10

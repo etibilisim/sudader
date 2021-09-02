@@ -1,0 +1,263 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+/* Sistem Ayarlari */
+.header a.nav-link, .header .nav-link{
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: 0.4s all ease-in-out;
+    text-decoration: none;
+}
+.header a.nav-link:hover, .header .nav-link:hover{
+    transition: 0.2s all ease-in-out;
+    border-color: #fff !important;
+    text-decoration: none !important;
+    color: #fff !important;
+}
+.dropdown-toggle{
+    margin-right: 10px;
+    padding-right: 20px !important;
+}
+.dropdown-toggle::after {
+    display: block !important;
+    margin-left: .255em !important;
+    vertical-align: .255em;
+    content: "\f107" !important;
+    font-family: "fontawesome" !important;
+    border:none !important;
+    top:20% !important;
+    left: 65%;
+    position: absolute;
+}
+.nav-item{
+    display: inline-block;
+}
+.nav-item.dropdown:hover .dropdown-menu{
+    transition: 0.2s all ease-in-out;
+    display: inline-block !important;
+}
+.dropdown-menu{
+    background: #1d84c3 !important;
+    border-color: transparent;
+    box-shadow: 2px 2px 2px 2px #666;
+    width: 90% !important;
+    transition: 0.4s all ease-in-out;
+}
+.dropdown-item a{
+    color: #fff;
+    text-decoration: none;
+    background: none !important;
+}
+.dropdown-item:hover{
+    background: transparent !important;
+}
+.dropdown-item a:hover{
+    color: #fff !important;
+}
+.navbar-brand{
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 2.5rem !important;
+    padding-top: .125rem;
+    padding-bottom: .125rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.navbar-brand img{
+    width: 120px;
+}
+.featured-top{
+    margin-top:1%;
+}
+.sidebar_second h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.block h2{
+    font-weight: 700;
+    border-bottom: 4px solid #ddd;
+    margin-right: 1.5%;
+}
+/**************************************************************************/
+/* Manset Ayarlari */
+.flex-direction-nav a:before{
+    position: relative;
+    bottom: 10px;
+}
+#manset{
+    position: relative;
+    display: flex;
+}
+#manset-gorsel{
+    width: 50%;
+    height: auto;
+}
+#manset-yazi{
+    width: 50%;
+    padding: 3%;
+    background:rgba(29,132,195,0.3);
+    position: relative;
+}
+#manset-baslik{
+    position: relative;
+    margin: 5% 0;
+}
+#manset-baslik a{
+    text-decoration: none;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+#manset-terim{
+    font-weight: 700;
+    color:#fff;
+    background: #1d84c3;
+    width: 120px;
+    text-align: center;
+    border:1px solid transparent;
+    border-radius: 5px;
+}
+/**************************************************************************/
+/* Grid Satir Ayarlari */
+.grid-satir {
+    position: relative;
+    display: flex;
+    margin:0 0 1%;
+    background: #eee;
+    height: auto;
+    overflow: hidden;
+}
+.grid-satir-gorsel {
+    width: 38%;
+    margin: 0 2% 0 0;
+    border-right: 10px solid #aaa;
+}
+.grid-satir-gorsel img {
+    width: 100%;
+    height: auto;
+}
+.grid-satir-yazi {
+    width: 60%;
+    padding: 2% 0 0;
+}
+.grid-satir-terim {
+    color:#fff;
+    background: #1d84c3;
+    width: 120px;
+    text-align: center;
+    font-weight: 700;
+}
+.grid-satir-baslik {
+    margin-top:20px;
+}
+.grid-satir-baslik a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+}
+/**************************************************************************/
+/* Grid-2 Ayarlari */
+.grid-2{
+    width: 48% !important;
+    float: left;
+    margin:0 0.5% 2%;
+    height: auto;
+}
+.grid-2-view-gorsel img{
+    width: 100%;
+    height: auto;
+}
+/**************************************************************************/
+/* Grid-3 Ayarlari */
+.block-views-blockhaber-duyuru-gorunumleri-block-1 .views-row, .block-views-blockhaber-duyuru-gorunumleri-block-2 .views-row{
+    width: 31%;
+    float: left;
+    margin:0 1% 2%;
+}
+.grid-3 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.grid-3-gorsel img{
+    width: 100%;
+    height: auto;
+}
+.grid-3-terim{
+    position: absolute;
+    top:2%;
+    left: 2%;
+    color:#fff;
+    background: #1d84c3;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.grid-3-baslik a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+/**************************************************************************/
+/* Grid-4 Ayarlari */
+.grid-4{
+    width: 24% !important;
+    float: left;
+    margin:0 0.5% 3%;
+    position: relative;
+    text-align: center;
+}
+.grid-4-view-terim{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    background: #1d84c3;
+    color: #fff;
+    padding: 2px 5px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.grid-4-view-baslik{
+    position: relative;
+    bottom: 0;
+    padding: 2% 0;
+    width: 100%;
+    line-height: 1.1;
+}
+.grid-4-view-baslik a{
+    font-weight: 500;
+    color:#222;
+    font-size: 16px;
+    font-weight: 700;
+}
+.grid-4-view-tarih{
+    font-size: 11px;
+}
+.grid-4-view-gorsel img{
+    width: 100% !important;
+    height: auto;
+}
+/**************************************************************************/
+/* Duyarli Ekran Ayarlari */
+@media (max-width: 767px) {
+    .container{
+        width: 96% !important;
+        margin: 0 2% !important;
+    }
+    .dropdown-toggle::after {
+        top:25% !important;
+        left: 15%;
+    }
+    .featured-bottom .region{
+        margin: 2% 0 5%;;
+    }
+    .grid-2{
+        width: 80% !important;
+        margin: 0 10% 3%;
+    }
+    .grid-4{
+        width: 48% !important;
+    }
+}
