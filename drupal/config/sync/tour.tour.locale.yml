@@ -30,7 +30,7 @@ tips:
   locale-search:
     id: locale-search
     plugin: text
-    label: Ara
+    label: Search
     body: 'Çevirmek istediğiniz sözcük ya da cümlenin tamamını ya da bir bölümünü yazın.'
     weight: 3
     attributes:

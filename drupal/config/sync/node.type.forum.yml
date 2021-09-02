@@ -14,7 +14,7 @@ third_party_settings:
     parent: 'main:'
 _core:
   default_config_hash: ERCHDVB33lub-cz7DSYR7HuBlYJjmVUdPw0IIYa3ZXc
-name: 'Forum başlığı'
+name: 'Forum gönderisi'
 type: forum
 description: 'Forum içeriği oluşturmak için bu içerik türünü kullanınız.'
 help: ''

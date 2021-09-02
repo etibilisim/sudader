@@ -22,7 +22,7 @@ bundle: forum
 mode: default
 content:
   addtoany:
-    weight: 4
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -36,14 +36,14 @@ content:
   comment_forum:
     label: hidden
     type: comment_default
-    weight: 3
+    weight: 4
     region: content
     settings:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
   field_foto_galeri:
-    weight: 5
+    weight: 2
     label: above
     settings:
       image_style: ''
