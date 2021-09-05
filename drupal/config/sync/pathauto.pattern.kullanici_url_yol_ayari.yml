@@ -1,0 +1,14 @@
+uuid: 94974aa8-fd5e-4bb2-af6e-dab2ed91ff6f
+langcode: tr
+status: true
+dependencies:
+  module:
+    - user
+id: kullanici_url_yol_ayari
+label: 'Kullanıcı URL Yol Ayarı'
+type: 'canonical_entities:user'
+pattern: 'user/[user:account-name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

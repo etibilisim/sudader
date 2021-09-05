@@ -80,6 +80,14 @@
     border-bottom: 4px solid #ddd;
     margin-right: 1.5%;
 }
+
+eleman {
+
+}
+.row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
 /**************************************************************************/
 /* Manset Ayarlari */
 .flex-direction-nav a:before{
@@ -170,14 +178,10 @@
 }
 /**************************************************************************/
 /* Grid-3 Ayarlari */
-.block-views-blockhaber-duyuru-gorunumleri-block-1 .views-row, .block-views-blockhaber-duyuru-gorunumleri-block-2 .views-row{
+.grid-3 {
     width: 31%;
     float: left;
     margin:0 1% 2%;
-}
-.grid-3 {
-    width: 100%;
-    float: left;
     position: relative;
 }
 .grid-3-gorsel img{
@@ -208,7 +212,7 @@
     position: relative;
     text-align: center;
 }
-.grid-4-view-terim{
+.grid-4-terim{
     position: absolute;
     top: 2%;
     left: 2%;
@@ -219,23 +223,23 @@
     border-radius: 5px;
     font-size: 12px;
 }
-.grid-4-view-baslik{
+.grid-4-baslik{
     position: relative;
     bottom: 0;
     padding: 2% 0;
     width: 100%;
     line-height: 1.1;
 }
-.grid-4-view-baslik a{
+.grid-4-baslik a{
     font-weight: 500;
     color:#222;
     font-size: 16px;
     font-weight: 700;
 }
-.grid-4-view-tarih{
+.grid-4-tarih{
     font-size: 11px;
 }
-.grid-4-view-gorsel img{
+.grid-4-gorsel img{
     width: 100% !important;
     height: auto;
 }

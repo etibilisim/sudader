@@ -1,0 +1,22 @@
+uuid: 6621d9e5-bec1-44c6-a565-ff7541cdbf6d
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: forum_gonderisi_url_yol_ayari
+label: 'Forum Gönderisi URL Yol Ayarı'
+type: 'canonical_entities:node'
+pattern: 'forum/[node:taxonomy_forums]/[node:title]'
+selection_criteria:
+  b0117192-c07a-45f7-9e70-b7b91c4dc93b:
+    id: node_type
+    bundles:
+      forum: forum
+    negate: false
+    context_mapping:
+      node: node
+    uuid: b0117192-c07a-45f7-9e70-b7b91c4dc93b
+selection_logic: and
+weight: -5
+relationships: {  }

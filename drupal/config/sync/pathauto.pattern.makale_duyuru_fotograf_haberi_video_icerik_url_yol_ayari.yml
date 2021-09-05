@@ -1,0 +1,26 @@
+uuid: 5a5792f0-ab13-4f05-9f46-938c03c2c647
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: makale_duyuru_fotograf_haberi_video_icerik_url_yol_ayari
+label: 'Makale, Duyuru, Fotoğraf, Haberi, Video İçerik URL Yol Ayari'
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  ab7f2a04-eb57-4ce2-a13e-2c012c7bbd5a:
+    id: node_type
+    bundles:
+      article: article
+      duyuru: duyuru
+      fotograf: fotograf
+      haber: haber
+      video_icerik: video_icerik
+    negate: false
+    context_mapping:
+      node: node
+    uuid: ab7f2a04-eb57-4ce2-a13e-2c012c7bbd5a
+selection_logic: and
+weight: -5
+relationships: {  }

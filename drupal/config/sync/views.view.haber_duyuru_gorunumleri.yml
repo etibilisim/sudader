@@ -78,6 +78,10 @@ display:
           quantity: 9
       style:
         type: default
+        options:
+          grouping: {  }
+          row_class: grid-3
+          default_row_class: true
       row:
         type: fields
       fields:
@@ -787,7 +791,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div id=\"duyuru-blok\" class=\"grid-3\">\r\n<div id=\"duyuru-blok-gorsel\" class=\"grid-3-gorsel\">{{ field_one_cikan_gorsel }}</div>\r\n<div id=\"duyuru-blok-yazi\" class=\"grid-3-yazi\">\r\n<div id=\"duyuru-blok-terim\" class=\"grid-3-terim\">{{ field_duyuru_kategorisi }}</div>\r\n<div id=\"duyuru-blok-baslik\" class=\"grid-3-baslik\">{{ title }}</div>\r\n</div>\r\n</div>"
+            text: "<div id=\"duyuru-blok\">\r\n<div id=\"duyuru-blok-gorsel\" class=\"grid-3-gorsel\">{{ field_one_cikan_gorsel }}</div>\r\n<div id=\"duyuru-blok-yazi\" class=\"grid-3-yazi\">\r\n<div id=\"duyuru-blok-terim\" class=\"grid-3-terim\">{{ field_duyuru_kategorisi }}</div>\r\n<div id=\"duyuru-blok-baslik\" class=\"grid-3-baslik\">{{ title }}</div>\r\n</div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -1146,7 +1150,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div id=\"haber-blok\" class=\"grid-3\">\r\n<div id=\"haber-blok-gorsel\" class=\"grid-3-gorsel\">{{ field_one_cikan_gorsel }}</div>\r\n<div id=\"haber-blok-yazi\" class=\"grid-3-yazi\">\r\n<div id=\"haber-blok-terim\" class=\"grid-3-terim\">{{ field_haber_kategorisi }}</div>\r\n<div id=\"haber-blok-baslik\" class=\"grid-3-baslik\">{{ title }}</div>\r\n</div>\r\n</div>"
+            text: "<div id=\"haber-blok\">\r\n<div id=\"haber-blok-gorsel\" class=\"grid-3-gorsel\">{{ field_one_cikan_gorsel }}</div>\r\n<div id=\"haber-blok-yazi\" class=\"grid-3-yazi\">\r\n<div id=\"haber-blok-terim\" class=\"grid-3-terim\">{{ field_haber_kategorisi }}</div>\r\n<div id=\"haber-blok-baslik\" class=\"grid-3-baslik\">{{ title }}</div>\r\n</div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -1552,6 +1556,8 @@ display:
         filters: false
         filter_groups: false
         pager: false
+        style: false
+        row: false
       filters:
         status:
           id: status
@@ -1660,6 +1666,15 @@ display:
             offset: false
             offset_label: Offset
           quantity: 9
+      style:
+        type: default
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+      row:
+        type: fields
+        options: {  }
     cache_metadata:
       max-age: -1
       contexts:
@@ -1687,6 +1702,8 @@ display:
         filter_groups: false
         pager: false
         fields: false
+        style: false
+        row: false
       path: duyuru
       menu:
         type: normal
@@ -2100,6 +2117,15 @@ display:
           entity_type: node
           entity_field: nid
           plugin_id: field
+      style:
+        type: default
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+      row:
+        type: fields
+        options: {  }
     cache_metadata:
       max-age: -1
       contexts:

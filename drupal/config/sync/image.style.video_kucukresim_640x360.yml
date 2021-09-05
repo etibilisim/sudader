@@ -1,0 +1,15 @@
+uuid: 94074874-a690-4863-b9fd-8242fc4dddec
+langcode: tr
+status: true
+dependencies: {  }
+name: video_kucukresim_640x360
+label: 'Video Küçükresim 640x360'
+effects:
+  5bacbfd9-b972-4610-b0e3-de42a4f9d86c:
+    uuid: 5bacbfd9-b972-4610-b0e3-de42a4f9d86c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 640
+      height: 360
+      anchor: center-center

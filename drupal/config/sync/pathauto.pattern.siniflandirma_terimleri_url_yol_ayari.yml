@@ -1,0 +1,26 @@
+uuid: dfcaec7c-ce01-4b57-acbc-2e813a93af71
+langcode: tr
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: siniflandirma_terimleri_url_yol_ayari
+label: 'Sınıflandırma Terimleri URL Yol Ayarı'
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:vocabulary]/[term:name]'
+selection_criteria:
+  fe47c5c2-6d28-4d45-92c2-5de5e52ff7d9:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      duyuru_kategorileri: duyuru_kategorileri
+      forums: forums
+      haber_kategorileri: haber_kategorileri
+      tags: tags
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: fe47c5c2-6d28-4d45-92c2-5de5e52ff7d9
+selection_logic: and
+weight: -5
+relationships: {  }

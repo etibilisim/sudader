@@ -1,0 +1,30 @@
+uuid: 8f629e12-b523-4fff-850d-c993d81bf299
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.video_galeri
+  module:
+    - system
+    - views
+  theme:
+    - eti_barrio
+id: views_block__video_galeri_block_1
+theme: eti_barrio
+region: featured_bottom_second
+weight: 0
+provider: null
+plugin: 'views_block:video_galeri-block_1'
+settings:
+  id: 'views_block:video_galeri-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -7,7 +7,7 @@ dependencies:
       - forum
 _core:
   default_config_hash: ESGfHGDVWjnc2BiSFq58LOhBU6-f_2AGcwGjbqegYfo
-name: 'Forum Kategorisi'
+name: Forum
 vid: forums
 description: 'Forum haritası sözlüğü'
 weight: -10
